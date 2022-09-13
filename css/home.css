@@ -2,7 +2,7 @@
  .header{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/bg-1.jpg);
     background-position: center;
     position: relative;
     background-size: cover;
@@ -87,7 +87,7 @@
    /* *************** FOOTER SECTION STARTS FROM HERE ************** */
 
    .footer{
-      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/bg-1.jpg);
       background-position: center;
       position: relative;
        background-size: cover;
