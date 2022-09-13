@@ -1,0 +1,37 @@
+/* *************** HEADER SECTION STARTS FROM HERE **************  */
+.header{
+    height: 13vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-position: center;
+    position: fixed;
+    top: 0;
+    background-size: cover;
+    display: block;
+}
+
+/* *************** FEEDBACK SECTION STARTS FROM HERE **************  */
+
+.feedbackForm{
+    margin:100px;
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+}
+
+.RVEQke {
+    background-color: #f44336;
+    border:5px solid black;
+    color: rgba(255, 255, 255, 1);
+}
+/* **********FOOTER SECTION STARTS HERE********** */
+
+.footer{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+  }
+  
+ 
+ 

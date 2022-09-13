@@ -1,0 +1,87 @@
+*{
+    line-height: 2;
+}
+
+/* *************** HEADER SECTION STARTS FROM HERE **************  */
+.header{
+    height: 13vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-position: center;
+    position: fixed;
+    top: 0;
+    background-size: cover;
+    display: block;
+}
+
+/* *************** CONTACT SECTION STARTS FROM HERE **************  */
+.contactSection{
+    margin: 100px;
+    text-align: center;
+    padding:50px 100px 0; 
+}
+
+.contactSection h2{
+    font-size: 2rem;
+    margin-bottom:30px;
+    color:#f44336;
+}
+
+.contactRow{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: row;
+}
+
+.contactColumn{
+    margin:10px;
+}
+
+.contactForm{
+    flex-basis: 40%;
+}
+#social li{
+    margin:5px 50px 0 0;
+    font-size: 2rem;
+}
+input{
+    width:100%;
+    margin:3px;
+    border-radius: 5px;
+    border-width: 0.1mm;
+}
+
+textarea{
+    margin:3px;
+    width:100%;
+    border-radius: 5px;
+}
+
+.contactBtn{
+    width:25%;
+    padding:1px 15px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #f44336;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    margin-top:1;
+}
+
+.contactBtn:hover{
+    cursor: pointer;
+}
+
+/* **********FOOTER SECTION STARTS HERE********** */
+
+.footer{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+  }
+  
+ 
+ 

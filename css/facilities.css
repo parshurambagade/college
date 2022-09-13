@@ -1,0 +1,69 @@
+/* *************** HEADER SECTION STARTS FROM HERE **************  */
+.header{
+    height: 13vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-position: center;
+    position: fixed;
+    top: 0;
+    background-size: cover;
+    display: block;
+   }
+
+/* *************** FACILITIES SECTION STARTS FROM HERE ************** */
+   
+.facilities{
+    /* border:2px solid black; */
+    margin:100px 100px;
+    text-align: center;
+    line-height: 1.5;
+ }
+
+ .facilities>h2{
+    padding-top: 40px;
+ }
+ 
+ .facilitiesRow{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+ }
+ 
+ .facilitiesCol{
+    flex-basis: 31%;
+    text-align: left;
+    
+ }
+ 
+ .facilitiesCol img{
+    width:100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+ }
+
+ /* **********FOOTER SECTION STARTS HERE********** */
+
+ .footer{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+  }
+  
+ 
+ 
+  /* **********BUTTON SECTION***********/
+  .applyNow{
+    margin-left:25px;
+  }
+ 
+  .btn:hover{
+   color:white;
+   background-color: #f44336;
+  }
+ 
+  .btn{
+    font-size: 0.9rem;
+    border:#f44336 solid 1px;
+    color:#f44336;
+  }

@@ -1,0 +1,119 @@
+/* *************** HEADER SECTION STARTS FROM HERE **************  */
+.header{
+    height: 13vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+    background-position: center;
+    position: fixed;
+    top: 0;
+    background-size: cover;
+    display: block;
+   }
+    
+   
+   /* *************** COURSES SECTION STARTS FROM HERE **************  */
+   
+   .courses{
+      margin: 150px 0 0;
+      text-align: center;
+      padding:0 100px;
+   }
+   
+   .courses h2{
+      margin: 75px 35px 0;
+      color:#f44336;
+   }
+   
+   .courseBox{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      margin:auto;
+      /* margin-top: 20px; */
+      /* justify-content: space-between; */
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+      /* align-items: space-between; */
+   }
+   
+   
+   .course{
+      border: 1px solid #f44336;
+      padding:25px;
+      border-radius: 10px;
+      background:transparent;
+      transition: 0.5s;
+      flex-basis: 32%;
+      text-align: left;
+      display: flex;
+      margin-top: 50px;
+      /* background-color: #fff3f3; */
+   }
+   
+   .course:hover{
+      box-shadow: 0 0 20px 0 #f44336;
+   }
+   .courseInfo h4{
+      color:black;
+      margin:0 15px;
+   }
+
+   .courseImg{
+      /* border:1px solid #f44336; */
+      /* height:200px; */
+      width: 40%;
+      height:50vh;
+   }
+
+   .courseInfo{
+      width:60%;
+      /* color:#f44336; */
+   }
+
+   /* .course:hover img{
+      opacity:1;
+   } */
+
+   .course img{
+      /* margin:15px; */
+      width:100%;
+      height:100%;
+      /* opacity:0.8; */
+      /* border-radius:10px; */
+   }
+
+   .course p{
+      margin:15px;
+   }
+
+   .bba{
+      margin-bottom:50px;
+   }
+
+
+/* **********FOOTER SECTION STARTS HERE********** */
+
+   .footer{
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/bg-1.jpg);
+   background-position: center;
+   position: relative;
+   background-size: cover;
+ }
+ 
+
+
+ /* **********BUTTON SECTION***********/
+ .applyNow{
+   margin-left:25px;
+ }
+
+ .btn:hover{
+  color:white;
+  background-color: #f44336;
+ }
+
+ .btn{
+   font-size: 0.9rem;
+   border:#f44336 solid 1px;
+   color:#f44336;
+ }
